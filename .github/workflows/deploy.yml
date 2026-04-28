@@ -7,21 +7,18 @@ on:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    env:
+      LISP: sbcl
     steps:
       - uses: actions/checkout@v4
 
-      - uses: 40ants/setup-lisp@v3
-        with:
-          asdf-system: coleslaw
-
-      - name: Install coleslaw
+      - name: Install Roswell
         run: |
-          ros install coleslaw-org/coleslaw
+          curl -L https://raw.githubusercontent.com/roswell/roswell/master/scripts/install-for-ci.sh | sh
           echo "$HOME/.roswell/bin" >> "$GITHUB_PATH"
 
-      - name: Copy theme
-        run: |
-          coleslaw copy-theme hyde
+      - name: Install Coleslaw
+        run: ros install coleslaw-org/coleslaw
 
       - name: Build site
         run: coleslaw generate
