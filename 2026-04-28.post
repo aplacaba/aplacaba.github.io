@@ -1,0 +1,17 @@
+;;;;;
+title: Hello World
+tags: lisp, blog
+date: 2026-04-28 17:31:12
+format: md
+;;;;;
+
+Welcome to my blog, powered by [Coleslaw](https://github.com/coleslaw-org/coleslaw) and Common Lisp.
+
+```lisp
+(defun greeting (name)
+  (format t "Hello, ~a!~%" name))
+```
+
+This is the first post. More to come.
+
+<!--more-->

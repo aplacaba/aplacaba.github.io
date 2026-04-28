@@ -1,0 +1,28 @@
+;;; -*- mode : lisp -*-
+(;; Required information
+ :author "aplacaba"
+ :deploy-dir "deploy/"
+ :domain "https://aplacaba.info"
+ :routing ((:post           "posts/~a")
+           (:tag-index      "tag/~a")
+           (:month-index    "date/~a")
+           (:numeric-index  "~d")
+           (:feed           "~a.xml")
+           (:tag-feed       "tag/~a.xml")
+           (:sitemap        "~a.xml"))
+ :title "aplacaba's blog"
+ :theme "hyde"
+
+ ;; Optional information
+ :excerpt-sep "<!--more-->"
+ :feeds ("blog")
+ :plugins ((mathjax)
+           (sitemap)
+           (static-pages)
+           (gh-pages :url "git@github.com:aplacaba/aplacaba.github.io.git"
+                     :cname t)
+           (rsync "-avz" "--delete" "--exclude" ".git/" "--exclude" ".gitignore" "--copy-links"))
+ :sitenav ((:url "https://aplacaba.info" :name "Home")
+           (:url "https://github.com/aplacaba" :name "GitHub"))
+ :staging-dir "/tmp/coleslaw/"
+)
