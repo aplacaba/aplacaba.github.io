@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"> <channel> <title>aplacaba&#039;s blog</title> <link>https://aplacaba.info</link> <atom:link href="https://aplacaba.info/rss.xml" rel="self" type="application/rss+xml" /> <language>en-us</language> <pubDate>Tue, 28 Apr 2026 10:05:33 +0000</pubDate> <item> <title>Hello World</title> <link>https://aplacaba.info/posts/Hello-World.html</link> <pubDate>2026-04-28 17:31:12</pubDate> <author>aplacaba</author> <guid isPermaLink="true">https://aplacaba.info/posts/Hello-World.html</guid> <category><![CDATA[ lisp ]]></category><category><![CDATA[ blog ]]></category> <description><![CDATA[ <p>Welcome to my blog, powered by <a href="https://github.com/coleslaw-org/coleslaw" >Coleslaw</a> and Common Lisp.</p>
+
+<pre><code><span class="code"><span class="paren1">(<span class="code"><i><span class="symbol">defun</span></i> greeting <span class="paren2">(<span class="code">name</span>)</span>
+  <span class="paren2">(<span class="code">format t <span class="string">"Hello, ~a!~%"</span> name</span>)</span></span>)</span></span></code></pre>
+
+<p>This is the first post. More to come.</p>
+
+<!--more-->
+ ]]></description> </item> </channel> </rss>

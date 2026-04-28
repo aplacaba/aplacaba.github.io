@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom"> <title>aplacaba&#039;s blog</title> <link href="https://aplacaba.info"/> <link type="application/atom+xml" rel="self" href="https://aplacaba.info/atom.xml"/> <updated>Tue, 28 Apr 2026 10:05:33 +0000</updated> <author> <name>aplacaba</name> </author> <entry> <link type="text/html" rel="alternate" href="https://aplacaba.info/posts/Hello-World.html"/> <title>Hello World</title> <published>2026-04-28 17:31:12</published> <updated>2026-04-28 17:31:12</updated> <author> <name>aplacaba</name> <uri>https://aplacaba.info</uri> </author> <content type="html">&lt;p&gt;Welcome to my blog, powered by &lt;a href=&quot;https://github.com/coleslaw-org/coleslaw&quot; &gt;Coleslaw&lt;/a&gt; and Common Lisp.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;paren1&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;i&gt;&lt;span class=&quot;symbol&quot;&gt;defun&lt;/span&gt;&lt;/i&gt; greeting &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;name&lt;/span&gt;)&lt;/span&gt;
+  &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;format t &lt;span class=&quot;string&quot;&gt;&quot;Hello, ~a!~%&quot;&lt;/span&gt; name&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is the first post. More to come.&lt;/p&gt;
+
+&lt;!--more--&gt;
+</content> </entry> </feed>
